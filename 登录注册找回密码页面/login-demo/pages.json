@@ -1,0 +1,70 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录demo"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"h5": {
+					"titleNView": false
+				},
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/login-pwd",
+			"style": {
+				"navigationBarTitleText": "密码登录",
+				"h5": {
+					"titleNView": false
+				},
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/login-code",
+			"style": {
+				"navigationBarTitleText": "验证码登录",
+				"h5": {
+					"titleNView": false
+				},
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/resst-pwd",
+			"style": {
+				"navigationBarTitleText": "重置密码",
+				"h5": {
+					"titleNView": false
+				},
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/retrieve-pwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"h5": {
+					"titleNView": false
+				},
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "登录demo",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"uniIdRouter": {}
+}

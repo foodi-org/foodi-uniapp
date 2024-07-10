@@ -1,0 +1,20 @@
+{
+    "id": "await-095412",
+    "name": "登录注册找回密码页面",
+    "displayName": "登录注册找回密码页面",
+    "version": "1.0.0",
+    "description": "登录注册找回密码demo - 开箱即用",
+    "keywords": [
+        "登录",
+        "注册",
+        "找回密码",
+        "忘记密码",
+        "短信验证"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}
